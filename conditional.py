@@ -3,31 +3,16 @@
     2 or more of the parameters are equal, and false if none of them are equal to any of the others.
 """
 
-#print('a')
-print('a:')
-a = input()
-
-print('b:')
-b = input()
-
-print('c:')
-c = input()
 
 def condition(a, b, c):
-    if (a == b or b == c or c == a):
-        #if (a == "" or b == "" or c == ""):
-        a = int()
-        b = int()
-        c = int()
-        print (True)
-    elif (a == b and b == c and c == a):
-        #if (a == "" or b == "" or c == ""):
-        a = int()
-        b = int()
-        c = int()
+    if (int(a) == int(b) or int(b) == int(c) or int(c) == int(a)):       
         print (True)
     else:
         print (False)
 
 
-condition(a,b,c)
+condition(1,"2",3)
+condition(4,"2",4)
+condition(1,"1",1)
+
+
